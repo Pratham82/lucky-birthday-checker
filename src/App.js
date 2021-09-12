@@ -13,6 +13,8 @@ function App() {
 
   const formatDate = (date) => date.toISOString().slice(0, 10)
 
+  const todaysDate = formatDate(new Date())
+
   const checkIfLucky = () => {
     const finalDate = birthday instanceof Date ? formatDate(birthday) : birthday
 
@@ -31,7 +33,7 @@ function App() {
       <p>Pick your birth date:</p>
       <input
         min="1950-01-01"
-        max={new Date()}
+        max={todaysDate}
         type="date"
         value={birthday}
         className="datePickerStyle"
