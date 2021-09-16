@@ -1,5 +1,5 @@
 # Lucky birthday checker
 
-Mark 12
+Mark 11
 
 [Live Site](https://lucky-birthday-checker-mark11.netlify.app/)
