@@ -56,6 +56,12 @@ function App() {
       )}
       <br />
       <p>{message}</p>
+      <br />
+      <br />
+       <p>
+        <b>Privacy Note ✏️</b>
+      </p>
+      <p>We are not Storing any data which is prvoided.</p>
     </div>
   )
 }
