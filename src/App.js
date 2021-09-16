@@ -22,8 +22,8 @@ function App() {
 
     // Set message
     sum % luckyNumber === 0
-      ? setMessage('Hurray your birthday is lucky')
-      : setMessage('Sorry your birthday is not lucky')
+      ? setMessage('🎉 Hurray your 🎂 birthday is lucky')
+      : setMessage('😔 Sorry your birthday is not lucky')
   }
 
   return (
