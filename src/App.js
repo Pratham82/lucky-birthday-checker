@@ -22,8 +22,8 @@ function App() {
 
     // Set message
     sum % luckyNumber === 0
-      ? setMessage('Hurray your birthday is lucky')
-      : setMessage('Sorry your birthday is not lucky')
+      ? setMessage('🎉 Hurray your 🎂 birthday is lucky')
+      : setMessage('😔 Sorry your birthday is not lucky')
   }
 
   return (
@@ -56,6 +56,12 @@ function App() {
       )}
       <br />
       <p>{message}</p>
+      <br />
+      <br />
+       <p>
+        <b>Privacy Note ✏️</b>
+      </p>
+      <p>We are not Storing any data which is prvoided.</p>
     </div>
   )
 }
